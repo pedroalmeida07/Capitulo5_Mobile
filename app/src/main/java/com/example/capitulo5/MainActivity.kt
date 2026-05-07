@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity2::class.java)
             intent.putExtra("user", User("Pedro de Souza", 18))
 
-            startActivity(Intent(this, MainActivity2::class.java))
+            startActivity(intent)
         }
     }
 }
